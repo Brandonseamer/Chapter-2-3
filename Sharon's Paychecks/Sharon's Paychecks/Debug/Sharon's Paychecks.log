@@ -1,10 +1,9 @@
-﻿Build started 4/6/2018 12:29:18 PM.
+﻿Build started 4/6/2018 1:11:34 PM.
      1>Project "C:\Users\bs137670\Desktop\Git C++\Chapter-2-3\Sharon's Paychecks\Sharon's Paychecks\Sharon's Paychecks.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /analyze- /errorReport:prompt /clr:nostdlib "..\..\Sharon's Paychecks\Sharon's Paychecks\Source.cpp"
          Source.cpp
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /analyze- /errorReport:prompt "C:\Users\bs137670\AppData\Local\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.cpp"
-         .NETFramework,Version=v4.5.AssemblyAttributes.cpp
+     1>c:\users\bs137670\desktop\git c++\chapter-2-3\sharon's paychecks\sharon's paychecks\source.cpp(53): warning C4700: uninitialized local variable 'netPay' used
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\bs137670\Desktop\Git C++\Chapter-2-3\Sharon's Paychecks\Debug\Sharon's Paychecks.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\bs137670\Desktop\Git C++\Chapter-2-3\Sharon's Paychecks\Debug\Sharon's Paychecks.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\Source.obj
          "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
@@ -13,4 +12,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.57
+Time Elapsed 00:00:00.94

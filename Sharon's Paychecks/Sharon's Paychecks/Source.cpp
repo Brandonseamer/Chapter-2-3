@@ -37,7 +37,8 @@ int main()
 		double payChecks = 24;
 		double payCheckValue;
 		double totalSavings = 100;
-
+		double netPay;
+		double payChecksRemaining =1;
 	//Processes
 		std::cout << "Welcome to your local Savings Calculator Program. (Accessible on your local hard drive) >>>" << std::endl;
 		std::cout << "What percentage of your check deposits would you like to save? >>>" << std::endl;
@@ -47,15 +48,18 @@ int main()
 		
 		do
 		{
-			std::cout << "What is the value of your next check? >>>" << std::endl;
+			std::cout << "What is the value of your next check? " << "Check " << payChecksRemaining<< " /24" << std::endl;
 			std::cin >> payCheckValue;
+			netPay = netPay + payCheckValue;
 			totalSavings = totalSavings + payCheckValue*payCheckPercentage;
 			payChecks = payChecks - 1;
+			payChecksRemaining = payChecksRemaining + 1;
 		} while (payChecks > 0);
 
 	//Output
 		std::cout << "Your total savings is: " << totalSavings << ". :) >>>" << std::endl;
-
+		std::cout << "Your total net pay is: " << netPay << ". :) >>>" << std::endl;
+		std::cout << "Your total gross income is: " << netPay - totalSavings << ". :) >>>" << std::endl;
 	system("pause");
 	return 0;
 }
